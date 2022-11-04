@@ -24,7 +24,7 @@ include device/google/tegu/device-tegu-common.mk
 
 include device/google/zumapro/BoardConfig-common.mk
 include device/google/gs-common/check_current_prebuilt/check_current_prebuilt.mk
-include device/google/tegu-sepolicy/tegu-sepolicy.mk
+include device/google/tegu/sepolicy/tegu-sepolicy.mk
 include device/google/tegu/wifi/BoardConfig-wifi.mk
 
 DEVICE_PATH := device/google/tegu
