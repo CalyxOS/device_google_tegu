@@ -232,12 +232,6 @@
     <!-- Type of the quick pickup sensor. Empty if quick pickup is not supported. -->
     <string name="config_quickPickupSensorType" translatable="false">com.google.sensor.quick_pickup</string>
 
-    <!-- Allow the GPS_PROVIDER to be replaced by the location provider app at run-time. -->
-    <bool name="config_useGnssHardwareProvider" translatable="false">false</bool>
-    <!-- Package name providing GNSS location support. Used only when
-         config_useGnssHardwareProvider is false. -->
-    <string name="config_gnssLocationProviderPackageName" translatable="false">com.google.android.gms</string>
-
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">g9qxm</string>
     <!-- MMS user agent profile url -->
