@@ -22,8 +22,8 @@ PRODUCT_MODEL := Pixel 9a
 PRODUCT_NAME := calyx_$(DEVICE_CODENAME)
 
 PRODUCT_BUILD_PROP_OVERRIDES := \
-    BuildDesc="tegu-user 15 BD4A.250505.003 13285625 release-keys" \
-    BuildFingerprint=google/tegu/tegu:15/BD4A.250505.003/13285625:user/release-keys \
+    BuildDesc="tegu-user 16 BP2A.250605.031.A2 13578606 release-keys" \
+    BuildFingerprint=google/tegu/tegu:16/BP2A.250605.031.A2/13578606:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
