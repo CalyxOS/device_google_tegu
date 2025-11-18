@@ -33,7 +33,7 @@ RELEASE_GOOGLE_BOOTLOADER_TEGU_DIR ?= 25D4# Keep this for pdk TODO: b/327119000
 RELEASE_GOOGLE_PRODUCT_BOOTLOADER_DIR := bootloader/$(RELEASE_GOOGLE_BOOTLOADER_TEGU_DIR)
 $(call soong_config_set,tegu_bootloader,prebuilt_dir,$(RELEASE_GOOGLE_BOOTLOADER_TEGU_DIR))
 
-TARGET_KERNEL_DIR := device/google/tegu-kernels/calyx
+TARGET_KERNEL_DIR := device/google/tegu-kernels/$(TARGET_LINUX_KERNEL_VERSION)
 TARGET_BOARD_KERNEL_HEADERS := $(TARGET_KERNEL_DIR)/kernel-headers
 
 ifneq ($(TARGET_BOOTS_16K),true)
