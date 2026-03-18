@@ -5,4 +5,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tegu.mk \
+    $(LOCAL_DIR)/calyx_tegu.mk \
     $(LOCAL_DIR)/lineage_tegu.mk
