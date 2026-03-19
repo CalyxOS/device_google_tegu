@@ -40,7 +40,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    DMServiceOverlayVendorTegu \
     FrameworkResOverlayProductTegu \
     FrameworkResOverlayVendorTegu \
     PixelDisplayServiceOverlayProductTegu \
