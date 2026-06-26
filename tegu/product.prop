@@ -1,4 +1,6 @@
 # Bluetooth
+bluetooth.ble.client.subrate_le_audio_mode_max_subrate.config=2
+bluetooth.ble.client.subrate_le_audio_mode_min_subrate.config=2
 bluetooth.device_id.product_id=16660
 bluetooth.profile.gmap.enabled=true
 persist.bluetooth.bqr.event_mask=295262
@@ -15,3 +17,6 @@ ro.com.google.ime.kb_pad_port_b=8
 
 # Quick start
 ro.quick_start.device_id=tegu
+
+# Telephony
+persist.vendor.ril.camp_on_earlier=1
